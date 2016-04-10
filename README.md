@@ -57,5 +57,6 @@ Feel free to submit PRs! In particular, I think it would be interesting to allow
 "transform" plugins (e.g. building a graph without any nodes of degree 0, or
 building a graph that fulfils some other condition).
 
-I use `glide` to manage dependencies. See
-`src/github.com/ilikebits/srgraph/glide.yaml`.
+I use `glide` to manage dependencies. This project is intended to be `go get`
+installable, so use `glide install --strip-vendor` to avoid `git` submodule
+problems when installing/updating dependencies.
