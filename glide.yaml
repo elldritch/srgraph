@@ -1,0 +1,4 @@
+package: github.com/ilikebits/srgraph
+import:
+- package: gopkg.in/alecthomas/kingpin.v2
+- package: github.com/cenkalti/backoff

@@ -1,0 +1,14 @@
+hash: ba2f1b91e1c8a17356b58811aa88fafcf97de2b421e140ff577f036dedfad3ea
+updated: 2016-04-10T14:41:51.95398428-07:00
+imports:
+- name: github.com/alecthomas/template
+  version: a0175ee3bccc567396460bf5acd36800cb10c49c
+  subpackages:
+  - parse
+- name: github.com/alecthomas/units
+  version: 2efee857e7cfd4f3d0138cc3cbb1b4966962b93a
+- name: github.com/cenkalti/backoff
+  version: 32cd0c5b3aef12c76ed64aaf678f6c79736be7dc
+- name: gopkg.in/alecthomas/kingpin.v2
+  version: 8cccfa8eb2e3183254457fb1749b2667fbc364c7
+devImports: []
